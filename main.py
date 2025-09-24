@@ -1,6 +1,3 @@
-
-
-
 shop = [] # List of 5 Mercs
 
 class Army:
