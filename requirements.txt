@@ -1,0 +1,28 @@
+Players compete on 4 stats: Money, Damage, Defense, Coolness.
+
+shop: displays 5 items at a time, refreshes every 10 seconds.
+when player buys from shop, it dissapears and gets added to their army.
+
+mercinaries -> 
+    tiers -> str
+    cost -> int
+    damage -> int
+    defense -> int
+
+    buy()
+        add_to_army()
+
+army -> class
+    Money -> int
+    Damage -> int
+    defense -> int
+    points -> int
+    mercinaries -> dict{name: tier}
+
+Enlistment: shows the mercinaries in the player army
+
+game phases:
+
+Start: shows rules
+Game: Buy mercinaries
+End: show winner
